@@ -74,8 +74,8 @@ const Landing = () => {
   }, []);
 
   return (
-    <div ref={el} className='h-screen'>
-      <div className='max-w-2xl h-[80vh] rounded-b-full absolute top-0 left-1/2 -translate-x-1/2 overflow-hidden z-0'>
+    <div ref={el} className='lg:h-screen'>
+      <div className='max-w-2xl h-[80vh] rounded-b-full absolute lg:top-0 top-16 left-[50%] lg:left-1/2 lg:-translate-x-1/2 overflow-hidden z-0'>
         <img
           id='hero1'
           src={hero1}
@@ -95,10 +95,10 @@ const Landing = () => {
           className='object-cover h-full w-full opacity-0'
         />
       </div>
-      <div className='h-full w-full flex items-center z-10 relative'>
-        <div className='flex w-full'>
-          <div className='w-1/2 flex flex-col items-start'>
-            <h1 id='hero-title' className='heroElement font-bold text-7xl'>
+      <div className='h-full w-full flex items-center z-10 mb-32 relative'>
+        <div className='flex lg:flex-row pt-32 lg:pt-0 flex-col w-full'>
+          <div className='lg:w-1/2 w-full flex flex-col items-start'>
+            <h1 id='hero-title' className='heroElement font-bold lg:text-7xl text-5xl'>
               Find the perfect <br /> job for you
             </h1>
             <p id='hero-subtitle' className='mt-5 text-lg'>
@@ -133,8 +133,8 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className='flex flex-col justify-between '>
-            <div className='statCard rounded-3xl shadow-2xl p-7 bg-white relative left-[80%]'>
+          <div className='flex mt-20 flex-col gap-8 lg:gap-0 justify-between '>
+            <div className='statCard w-3/4 lg:-w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[80%] left-20'>
               <div>
                 <span className='text-2xl font-bold'>319 </span>
                 <span>Job offers</span>
@@ -143,7 +143,7 @@ const Landing = () => {
                 In Business Development
               </p>
             </div>
-            <div className='statCard rounded-3xl shadow-2xl p-7 bg-white relative left-[60%]'>
+            <div className='statCard w-3/4 lg:-w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[60%] left-10'>
               <div>
                 <span className='text-2xl font-bold'>265 </span>
                 <span>Job offers</span>
@@ -152,7 +152,7 @@ const Landing = () => {
                 In Marketing & Communication
               </p>
             </div>
-            <div className='statCard rounded-3xl shadow-2xl p-7 bg-white relative left-[40%]'>
+            <div className='statCard w-3/4 lg:-w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[40%] left-0'>
               <div>
                 <span className='text-2xl font-bold'>324 </span>
                 <span>Job offers</span>

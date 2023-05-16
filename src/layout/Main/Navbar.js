@@ -19,15 +19,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`h-14 fixed w-full z-[999] ${
+      className={`h-14 fixed lg:w-full  lg:mx-auto mx-5 z-[999] ${
         pathname === "/" ? null : "bg-white"
       }`}
     >
-      <ul className="max-w-7xl mx-auto flex gap-3 h-full items-center">
+      <ul className="lg:max-w-7xl mx-auto flex gap-3 h-full items-center">
         <li className="flex-auto font-semibold text-2xl">
           <Link to="/">JobBox</Link>
         </li>
-        <li>
+        <li className="ml-8 lg:ml-0">
           <Link className="hover:text-primary" to="/jobs">
             Jobs
           </Link>

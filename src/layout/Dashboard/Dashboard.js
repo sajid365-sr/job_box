@@ -6,8 +6,8 @@ const Dashboard = () => {
   return (
     <div className='grid grid-cols-12'>
       <Sidebar />
-      <div className=' col-span-10'>
-        <div className=' h-full max-w-7xl mx-auto'>
+      <div className=' lg:col-span-10 col-span-12 '>
+        <div className=' h-full lg:max-w-7xl w-full mx-auto'>
           <Outlet />
         </div>
       </div>
