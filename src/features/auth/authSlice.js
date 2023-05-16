@@ -56,7 +56,7 @@ export const authSlice = createSlice({
   initialState,
   reducers: {
     logout: (state) => {
-      state.user.email = "";
+      state.user = { email: "", role: ""};
     },
     setUser: (state, { payload }) => {
       state.user.email = payload;
