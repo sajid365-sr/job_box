@@ -133,8 +133,8 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className='flex mt-20 flex-col gap-8 lg:gap-0 justify-between '>
-            <div className='statCard w-3/4 lg:-w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[80%] left-20'>
+          <div className='flex mt-20 flex-col gap-8 justify-between '>
+            <div className='statCard w-3/4 lg:w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[80%] left-20'>
               <div>
                 <span className='text-2xl font-bold'>319 </span>
                 <span>Job offers</span>
@@ -143,7 +143,7 @@ const Landing = () => {
                 In Business Development
               </p>
             </div>
-            <div className='statCard w-3/4 lg:-w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[60%] left-10'>
+            <div className='statCard w-3/4 lg:w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[60%] left-10'>
               <div>
                 <span className='text-2xl font-bold'>265 </span>
                 <span>Job offers</span>
@@ -152,7 +152,7 @@ const Landing = () => {
                 In Marketing & Communication
               </p>
             </div>
-            <div className='statCard w-3/4 lg:-w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[40%] left-0'>
+            <div className='statCard w-3/4 lg:w-full rounded-3xl shadow-2xl lg:p-7 px-5 py-3 bg-white relative lg:left-[40%] left-0'>
               <div>
                 <span className='text-2xl font-bold'>324 </span>
                 <span>Job offers</span>
